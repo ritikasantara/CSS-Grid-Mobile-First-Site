@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CSS Grid site</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <!-- Header-->
     <header id="showcase" class="grid">
         <div class="bg-image"></div>
-        <h1>Welcome to ABC web solutions</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quia impedit harum accusamus, placeat libero aspernatur magnam pariatur consectetur quae.</p>
-        <a href="#section-b" class="btn">Read More</a>
+        <div class="content-wrap">
+            <h1>Welcome to ABC web solutions</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quia impedit harum accusamus, placeat libero
+                aspernatur magnam pariatur consectetur quae.</p>
+            <a href="#section-b" class="btn">Read More</a>
+        </div>
     </header>
 
     <!--Main Area-->
@@ -25,9 +31,13 @@
 
             <div class="content-wrap">
                 <h2 class="content-title">Web and Application Development</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis delectus dolore in amet quos et repellendus similique explicabo distinctio voluptas fugiat voluptatum dolores error reprehenderit, totam rem! Dolor magnam exercitationem hic odit maxime adipisci quisquam. Aut incidunt id ab adipisci!</p>
+                <div class="content-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis delectus dolore in amet quos et repellendus
+                        similique explicabo distinctio voluptas fugiat voluptatum dolores error reprehenderit, totam rem! Dolor
+                        magnam exercitationem hic odit maxime adipisci quisquam. Aut incidunt id ab adipisci!</p>
+                </div>
             </div>
-            
+
         </section>
 
         <!--Section B-->
@@ -40,32 +50,33 @@
                         <img src="images/pexels-photo-574077 (1).jpeg" alt="">
                         <div class="card-content">
                             <h3 class="card-title">Web Development</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab soluta autem quas placeat! Quis hic sunt, delectus nesciunt odio assumenda?</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab soluta autem quas placeat! Quis
+                                hic sunt, delectus nesciunt odio assumenda?</p>
                         </div>
                     </div>
                 </li>
 
                 <li>
-                        <div class="card">
-                            <img src="images/pexels-photo-261628.jpeg" alt="">
-                            <div class="card-content">
-                                <h3 class="card-title">Mobile Applications</h3>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab soluta autem quas placeat! Quis hic sunt, delectus nesciunt odio assumenda?</p>
-                            </div>
+                    <div class="card">
+                        <img src="images/pexels-photo-261628.jpeg" alt="">
+                        <div class="card-content">
+                            <h3 class="card-title">Mobile Applications</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab soluta autem quas placeat! Quis
+                                hic sunt, delectus nesciunt odio assumenda?</p>
                         </div>
-                    </li>
+                    </div>
+                </li>
 
-                    <li>
-                            <div class="card">
-                                <img src="images/pexels-photo-265087.jpeg" alt="">
-                                <div class="card-content">
-                                    <h3 class="card-title">Tech                                      Marketing</h3>
-                                    <p>Lorem ipsum, dolor sit                                           amet consectetur                                                 adipisicing elit. Ab                                             soluta autem quas                                                placeat! Quis hic sunt,                                          delectus nesciunt odio                                           assumenda?
-
-                                    </p>
-                                </div>
-                            </div>
-                    </li>
+                <li>
+                    <div class="card">
+                        <img src="images/pexels-photo-265087.jpeg" alt="">
+                        <div class="card-content">
+                            <h3 class="card-title">Tech Marketing</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab soluta autem quas placeat! Quis
+                                hic sunt,delectus nesciunt odio assumenda?</p>
+                        </div>
+                    </div>
+                </li>
             </ul>
         </section>
 
@@ -74,7 +85,8 @@
         <section id="section-c" class="grid">
             <div class="content-wrap">
                 <h2 class="content-title">We handle all of your digital needs</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum autem aspernatur non enim unde hic, doloremque omnis quae corrupti nostrum.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum autem aspernatur non enim unde hic, doloremque
+                    omnis quae corrupti nostrum.</p>
             </div>
         </section>
 
@@ -82,16 +94,19 @@
         <section id="section-d" class="grid">
             <div class="box">
                 <h2 class="content-title">Contact Us</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi hic iusto minima sunt, rem sequi dicta labore animi. Ullam, amet!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi hic iusto minima sunt, rem sequi dicta labore
+                    animi. Ullam, amet!</p>
                 <p>contact@abcwebsolutions.test</p>
             </div>
 
             <div class="box">
-                    <h2 class="content-title">About Our Company</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, quidem. Amet repellendus libero aut exercitationem perspiciatis eum optio officia, molestias pariatur iste. Repellat in, aliquam incidunt delectus magni optio obcaecati?</p>
-                </div>
+                <h2 class="content-title">About Our Company</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, quidem. Amet repellendus libero aut exercitationem
+                    perspiciatis eum optio officia, molestias pariatur iste. Repellat in, aliquam incidunt delectus magni
+                    optio obcaecati?</p>
+            </div>
         </section>
-    
+
     </main>
 
     <!--Footer-->
@@ -99,6 +114,7 @@
         <div>ABC web Solutions</div>
         <div>Project By <a target="_blank" href="https://github.com/ritikasantara">Ritika Santara</a></div>
     </footer>
-    
-</body> 
+
+</body>
+
 </html>
